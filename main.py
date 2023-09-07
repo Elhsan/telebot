@@ -2,7 +2,7 @@ from telebot import *
 from telebot.types import *
 import time
 
-bot = telebot.TeleBot("6372815957:AAE5GlAf6IEtMkYE8LmyJbI24rEwJgtz7Ts")
+bot = telebot.TeleBot("6306162064:AAEBC9t6QLhQg9crdIK9gL2-ONauDJdQiPY")
 
 маты = [
     'лох', 'сука', 'бля', 'пиздец', 'сучары', 'хуй', 'пизда', 'блин', 'ебать', 'нахуй', 'блядь', 'ебануться', 'пидар', 'гандон', 'мудак', 'член', 'долбоеб', 'срака', 'ебаный', 'ебаться', 'ебало', 'хуесос', 'ебло', 'ебал', 'ебанный', 'хуило', 'пердун', 'падла', 'блять']
@@ -23,7 +23,7 @@ def main(message):
                 break
             else:
                 bot.reply_to(message.chat.id, f"Это должно быть ответом")
-    bot.send_message(1245413255, f"Отправитель: {message.from_user.first_name}\n Сообщение: {message.text} ")
+    bot.send_message(1245413255, f"Отправитель: {message.from_user.first_name}\nСообщение: {message.text} ")
     
 
 
